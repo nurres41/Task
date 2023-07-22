@@ -1,0 +1,31 @@
+.gameBox{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    border: 1px gray solid;
+    border-radius: 20px;
+    cursor: pointer;
+
+    &:hover{
+        opacity: .8;
+    }
+
+    img{
+        border-radius: 20px;
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+    }
+    p{
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+        text-decoration: underline;
+        text-underline-offset: 6px;
+    }
+}

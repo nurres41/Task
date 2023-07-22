@@ -1,0 +1,23 @@
+.games{
+    min-height: calc(100vh - 299px);
+    width: 100vw;
+    padding-top: 80px; /* space for header */
+    background: rgb(1,23,69);
+    background: linear-gradient(180deg, rgba(1,23,69,1) 0%, rgba(0,0,0,1) 100%);
+    .container{
+        display: flex;
+        max-width: 1080px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: hidden;
+        .items{
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            grid-gap: 30px 89px;
+            align-content: space-between;
+        }
+    }
+}

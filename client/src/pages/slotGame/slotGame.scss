@@ -1,0 +1,45 @@
+.slotGame{
+    min-height: calc(100vh - 219px);
+    width: 100%;
+    background: rgb(1,23,69);
+    background: radial-gradient(circle, rgba(1,23,69,1) 0%, rgba(0,0,0,1) 50%, rgba(1,23,69,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 30px;
+    .slot{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 30px;
+
+        .item{
+            border: 1px orange solid;
+            padding: 50px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    }
+    .slotAction{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+
+        button{
+            background-color: transparent;
+            color: white;
+            border: 1px solid gray;
+            border-radius: 20px;
+            height: 80px;
+            cursor: pointer;
+            padding: 20px;
+            font-weight: bold;
+            &:hover{
+                background-color: yellow;
+                color: black;
+            }
+        }
+    }
+}

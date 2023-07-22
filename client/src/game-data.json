@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "Spaceman",
+      "thumb": {
+        "url": "./img/spaceman.png"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Starbust",
+      "thumb": {
+        "url": "./img/starbust.jpeg"
+      }
+    },
+    {
+        "id": 3,
+        "name": "Bonanza",
+        "thumb": {
+          "url": "./img/bonanza.jpeg"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Dog House",
+        "thumb": {
+          "url": "./img/dog.jpeg"
+        }
+      }
+  ]
+  

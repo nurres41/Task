@@ -1,0 +1,21 @@
+footer{
+    color: white;
+    background: rgb(1,23,69);
+    background: linear-gradient(0deg, rgba(1,23,69,1) 0%, rgba(0,0,0,1) 100%);
+    width: 100vw;
+    .container{
+        display: flex;
+        max-width: 1080px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        p{
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            font-weight: 200;
+            font-size: 14px;
+        }
+    }
+    }
