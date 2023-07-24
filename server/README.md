@@ -1,5 +1,5 @@
 
-# Kanon Task
+# Task
 
 
 In this to-do application;
